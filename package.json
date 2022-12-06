@@ -1,0 +1,33 @@
+{
+  "name": "p2-iproject-server-vesa",
+  "version": "1.0.0",
+  "description": "Individual Project - Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db": "npx sequelize db:drop && npx sequelize db:create && npx sequelize db:migrate && npx sequelize db:seed:all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vesarian/p2-iproject-server-vesa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vesarian/p2-iproject-server-vesa/issues"
+  },
+  "homepage": "https://github.com/vesarian/p2-iproject-server-vesa#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.8.0",
+    "sequelize": "^6.26.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "sequelize-cli": "^6.5.2"
+  }
+}

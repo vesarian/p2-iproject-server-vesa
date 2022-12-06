@@ -1,0 +1,6 @@
+CODER API Documentation
+_________________________________________
+Endpoints:
+_________________________________________
+List of available endpoints:
+
